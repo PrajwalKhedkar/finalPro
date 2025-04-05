@@ -78,6 +78,7 @@ exports.searchBiscuit = catchAsync(async (req, res) => {
             data: results,
           });
 
+       
 });
 
 exports.getNutrients=catchAsync(
